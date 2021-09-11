@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "sourceRoot": "src",
+    "outDir": "lib",
+    "target": "es2020",
+    "lib": [
+      "es2020"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "esnext", // (A)
+    "moduleResolution": "Node", // (B)
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}
